@@ -47,3 +47,16 @@ Thumbs.db
 # Replit
 .cache/
 .local/
+
+# Environment and secret files
+.env
+.env.*
+!.env.example
+
+# Archives
+*.zip
+*.tar.gz
+
+# Local form submission data
+business-listings.json
+onboarding-submissions.json
